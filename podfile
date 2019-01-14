@@ -1,0 +1,19 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform:ios,'9.0'
+use_frameworks!
+
+target 'ClassCat' do
+    # swift
+    pod 'SnapKit'       # 代码约束
+    pod 'Kingfisher'    # 图片异步加载
+    pod 'Alamofire'     # 网络
+    pod 'Toast-Swift'
+    pod 'GTMRefresh'
+    pod 'TFSegment'
+    pod 'SDWebImage'
+    pod 'WechatOpenSDK'
+    pod 'BRPickerView' #地址选择器
+    pod 'MJRefresh'
+    pod 'PKHUD'
+end
+
